@@ -9,7 +9,6 @@
 
 body {
   background-color: #3498db;
-  background-image: linear-gradient(circle, rgb(156, 150, 143), rgb(158, 252, 158), rgb(218, 247, 218));
   font-family: cursive, sans-serif;
   display: flex;
   align-items: center;
@@ -73,13 +72,34 @@ h2 {
 
 button {
   display: block;
-  padding: 10px;
+  padding: 12px;
   margin-top: 10px;
   font-size: 16px;
   width: 100%;
-  background-color: #3498db;
   cursor: pointer;
-  border: 2px solid #3498db;
+  border: none;
   color: #fff;
   border-radius: 4px;
+
+  background-image: linear-gradient(to right, #0095f9 50%, #59b6f3 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button:hover {
+  
+  background-position: left bottom;
+  
+
+}
+
+.link-login {
+  text-decoration: none;
+  color: #0095f9;
 }
