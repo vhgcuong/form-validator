@@ -59,7 +59,7 @@ function checkEmail(input) {
 
 // Check value input password
 function checkPassword(input) {
-  const regx = /^[*]{6,}$/;
+  const regx = /^.{6,}$/;
 
   if (regx.test(input.value.trim())) {
     showSuccess(input);
