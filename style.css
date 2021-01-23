@@ -65,6 +65,10 @@ body {
   left: 0;
 }
 
+.form-control.error small {
+  visibility: visible;
+}
+
 h2 {
   text-align: center;
   margin: 0 0 20px;
@@ -84,7 +88,7 @@ button {
   background-image: linear-gradient(to right, #0095f9 50%, #59b6f3 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all .5s ease-out;
+  transition: all .3s ease-out;
 }
 
 button:focus {
@@ -93,10 +97,7 @@ button:focus {
 }
 
 button:hover {
-  
   background-position: left bottom;
-  
-
 }
 
 .link-login {

@@ -4,38 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form Validator</title>
+  <title>Đăng ký tài khoản</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
   <div class="register">
     <form action="" id="form" class="form">
-      <h2>Register With Us</h2>
+      <h2>Đăng ký tài khoản với chúng tôi</h2>
       <div class="form-control">
-        <label for="username">Username</label>
-        <input type="text" id="username" placeholder="Enter username" autofocus autocomplete="off">
+        <label for="username">Tài khoản</label>
+        <input type="text" id="username" placeholder="Nhập tài khoản" autofocus autocomplete="off">
         <small>Error message</small>
       </div>
       <div class="form-control">
         <label for="email">Email</label>
-        <input type="text" id="email" placeholder="Enter email" autocomplete="off">
+        <input type="text" id="email" placeholder="Nhập email" autocomplete="off">
         <small>Error message</small>
       </div>
       <div class="form-control">
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Enter password" autocomplete="off">
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" placeholder="Nhập mật khẩu" autocomplete="off">
         <small>Error message</small>
       </div>
       <div class="form-control">
-        <label for="confirm-password">Confirm Password</label>
-        <input type="password" id="confirmPassword" placeholder="Enter password again" autocomplete="off">
+        <label for="confirmPassword">Xác nhận lại mật khẩu</label>
+        <input type="password" id="confirmPassword" placeholder="Nhập lại mật khẩu" autocomplete="off">
         <small>Error message</small>
       </div>
-      <button id="btnSubmit" type="submit">Submit</button>
-      <p>Already have an account. <a class="link-login" href="#">Login here</a></p> 
+      <button id="btnSubmit" type="submit">Đăng ký</button>
+      <p>Bạn đã có tài khoản. <a class="link-login" href="#">Đăng nhập</a></p> 
     </form>
   </div>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
